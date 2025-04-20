@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from helper_functions import log_info, log_error
 
 # Define paths
-ARTIFACTS_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts"
+ARTIFACTS_PATH = "D:/MLOPS_LAB/MLOPS_Practical/mlops2025-DSC/Artifacts"
 os.makedirs(ARTIFACTS_PATH, exist_ok=True)
 PIPELINE_PATH = os.path.join(ARTIFACTS_PATH, "data_processing_pipeline.pkl")
 LABEL_ENCODER_PATH = os.path.join(ARTIFACTS_PATH, "label_encoder.pkl")
